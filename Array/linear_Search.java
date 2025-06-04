@@ -13,7 +13,13 @@ public class linear_Search {
         int number[] = {2, 4, 6, 8, 10, 12, 14, 16};
         int key = 10;
 
-     System.out.print(linearSearch(number, key));
+        int index = linearSearch(number, key);
+
+        if(index == -1){
+            System.out.println("NOT found");
+        }else{
+            System.out.println("key is at index = "+ index);
+        }
     
     }
 }
