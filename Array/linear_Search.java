@@ -12,6 +12,7 @@ public class linear_Search {
     public static void main(String[] args) {
         int number[] = {2, 4, 6, 8, 10, 12, 14, 16};
         int key = 10;
+        
 
         int index = linearSearch(number, key);
 
