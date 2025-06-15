@@ -11,7 +11,6 @@ public class maxarrPrefix {
         for (int i = 1; i < prefix.length; i++) {
             prefix[i] = prefix[i - 1] + numbers[i];
         }
-
         for (int i = 0; i < numbers.length; i++) {
             int start = i;
 
